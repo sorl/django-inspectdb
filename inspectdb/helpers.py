@@ -10,7 +10,7 @@ uncamel_patterns = (
 invalid_att_pat = re.compile(r'[^_a-z0-9]')
 limit_underscore_pat = re.compile(r'_{2,}')
 
-invalid_model_pat = re.compile(r'[^-_a-zA-Z0-9]')
+invalid_model_pat = re.compile(r'[^-_ a-zA-Z0-9]')
 to_space_pat = re.compile(r'[-_]')
 limit_space_pat = re.compile(r' {2,}')
 

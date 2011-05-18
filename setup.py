@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-inspectdb',
-    version='0.2',
+    version='0.2.1',
     description='Better inspectdb.',
     long_description=open('README.rst').read(),
     author='Mikko Hellsing',

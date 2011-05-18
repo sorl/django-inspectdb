@@ -22,7 +22,7 @@ class Command(NoArgsCommand):
             ),
         make_option(
             '-c',
-            '--force_db_column',
+            '--force-db_column',
             action='store_true',
             dest='force_db_column',
             default=False,
